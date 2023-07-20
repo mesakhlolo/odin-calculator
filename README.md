@@ -4,4 +4,4 @@ Created as part of [The Odin Project](https://www.theodinproject.com/lessons/fou
 
 Live demo: [Here](https://mesakhlolo.github.io/odin-calculator/)
 
-Learning Resources: [Here]((https://www.youtube.com/watch?v=Kyxvms8pnSU&t=1s))
+Learning Resources: [Here](https://www.youtube.com/watch?v=Kyxvms8pnSU&t=1s)
