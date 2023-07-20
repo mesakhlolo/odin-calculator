@@ -51,6 +51,12 @@ equal.addEventListener("click", () => {
   }
 });
 
+// decimal button click
+decimal.addEventListener("click", () => {
+  addDecimal();
+  currentScreen.textContent = currentValue;
+});
+
 function handleNumber(num) {
   if (currentValue.length <= 5) {
     currentValue += num;
@@ -84,4 +90,10 @@ function calculate() {
 
 function roundNumber(num) {
   return Math.round(num * 1000) / 1000;
+}
+
+function addDecimal() {
+  if (!currentValue.includes(".")) {
+    currentValue += ".";
+  }
 }
